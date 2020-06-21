@@ -1,17 +1,58 @@
 
+body{
+    background-color:#000000;
+}
+.SearchCity{
+    text-align: center;
+    margin: 10px;
+}
 .fullWeather_container{
+    background-color:#000000 ;
     background: #000000;
     text-align: center;
+    max-width: 300px;
+    height:70vh;
+    border:2px solid skyblue;
+    margin: 0 auto;
+}
+.weatherImg{
+    justify-content: center;
+}
+.cityName{
+    font-size:40px;
+    color: #ffffff;
+    margin-top: 5px;
 }
 .weatherName{
-    font-size:22px;
-    margin: 0;
+    font-size:25px;
     color: #ffffff;
 }
+.weatherDescription{
+    color: #ffffff;
+    font-size:15px;
+}
+
 .weatherTemp{
-    font-size: 22px;
+    color: #ffffff;
+    font-size:55px;
     margin:0;
-    font-weight: bold;
+}
+
+.feelsLikeTemp{
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+span{
+    font-size: 15px;
     color: #ffffff;
 
 }
+
+.temp1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+}
+

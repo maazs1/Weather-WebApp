@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherApp</title>
 
-    <input type='text' id='txt1' />
-    <input type='button' id='button' value='Enter a City' />
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 
@@ -17,11 +13,25 @@
 
 </head>
 <body>
+
+    <div class = "SearchCity">
+        <input type='text' id='txt1' />
+        <input type='button' id='button' value='Enter a City' />
     
+    </div>
+
     <div class = "fullWeather_container">
+        <p class = "cityName"></p>
         <img class="weatherImg">
         <p class="weatherName"></p>
-        <p class ="weatherTemp"></p>
+        <p class="weatherDescription"></p>
+        <div class ="temp1">
+            <p class ="weatherTemp"></p>
+            <span>&#8451;</span>
+        </div>
+        <p class = "feelsLikeTemp"></p>
+
+        
     </div>
 </body>
 </html>
