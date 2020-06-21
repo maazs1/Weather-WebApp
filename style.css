@@ -1,0 +1,17 @@
+
+.fullWeather_container{
+    background: #000000;
+    text-align: center;
+}
+.weatherName{
+    font-size:22px;
+    margin: 0;
+    color: #ffffff;
+}
+.weatherTemp{
+    font-size: 22px;
+    margin:0;
+    font-weight: bold;
+    color: #ffffff;
+
+}
