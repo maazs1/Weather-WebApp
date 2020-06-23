@@ -1,0 +1,1 @@
+By opening index.html, it will cue to acquire the users current location by using ip-api Gelocation API (https://ip-api.com/). Using this default current location, it will also use OpenWeatherMap's API to get the cities weather details. It will allow the user to enter different city names to get the various weather details.
